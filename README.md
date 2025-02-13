@@ -42,25 +42,25 @@ O projeto utiliza uma configuração de tema personalizada com:
 ## 🚦 Como Iniciar
 
 1. Clone o repositório:
-\`\`\`bash
+```bash
 git clone https://github.com/seunome/petshop-landing.git
-\`\`\`
+```
 
 2. Instale as dependências:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Inicie o servidor de desenvolvimento:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador
 
 ## 📁 Estrutura do Projeto
 
-\`\`\`
+```
 src/
 ├── app/
 │   ├── _components/
@@ -74,7 +74,7 @@ src/
 │   └── ui/
 ├── lib/
 │   └── utils.ts
-\`\`\`
+```
 
 ## 🎯 Arquitetura de Componentes
 
