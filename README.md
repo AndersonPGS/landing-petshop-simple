@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page Pet Shop
 
-## Getting Started
+Uma landing page moderna e responsiva construída com Next.js 14, TypeScript e Tailwind CSS. Este projeto apresenta um site profissional de pet shop com múltiplas seções projetadas para engajar visitantes e mostrar serviços.
 
-First, run the development server:
+## ✨ Características
 
-```bash
+- Design moderno de interface
+- Layout totalmente responsivo
+- Renderização server-side com Next.js
+- Desenvolvimento seguro com TypeScript
+- Estilização customizável com Tailwind CSS
+- Arquitetura baseada em componentes
+
+## 📋 Seções da Página
+
+A landing page consiste nas seguintes seções principais:
+
+1. **Seção Hero** - Banner principal e chamada para ação
+2. **Seção Sobre** - Informações sobre o pet shop
+3. **Seção Serviços** - Exibição dos serviços disponíveis
+4. **Seção Depoimentos** - Avaliações e feedback dos clientes
+5. **Rodapé** - Informações de contato e links adicionais
+
+## 🛠️ Tecnologias Utilizadas
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- clsx para classes condicionais
+- tailwind-merge para resolução de conflitos de estilo
+- Tailwind Animate para animações
+
+## 🎨 Estilização
+
+O projeto utiliza uma configuração de tema personalizada com:
+- Esquema de cores personalizado usando variáveis HSL
+- Sistema consistente de border radius
+- Suporte ao modo escuro
+- Componentes animados
+- Padrões de design responsivo
+
+## 🚦 Como Iniciar
+
+1. Clone o repositório:
+\`\`\`bash
+git clone https://github.com/seunome/petshop-landing.git
+\`\`\`
+
+2. Instale as dependências:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Inicie o servidor de desenvolvimento:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+src/
+├── app/
+│   ├── _components/
+│   │   ├── about.tsx
+│   │   ├── footer.tsx
+│   │   ├── hero.tsx
+│   │   ├── services.tsx
+│   │   └── testimonials.tsx
+│   └── page.tsx
+├── components/
+│   └── ui/
+├── lib/
+│   └── utils.ts
+\`\`\`
 
-## Learn More
+## 🎯 Arquitetura de Componentes
 
-To learn more about Next.js, take a look at the following resources:
+A landing page segue uma arquitetura modular de componentes onde cada seção é um componente separado, tornando o código manutenível e reutilizável.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuração
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto inclui configurações personalizadas para:
+- Next.js (next.config.ts)
+- Tailwind CSS (tailwind.config.ts)
+- TypeScript (tsconfig.json)
 
-## Deploy on Vercel
+## 📱 Design Responsivo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A landing page é totalmente responsiva e funciona perfeitamente em:
+- Dispositivos móveis
+- Tablets
+- Telas desktop
+- Telas grandes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
